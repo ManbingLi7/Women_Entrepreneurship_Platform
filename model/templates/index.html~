@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Home page</title>
+    </head>
+    <body>
+      <h1>Home Page!</h1>
+      {% for x in range(0, 3) %}
+           <p>{{x+1}}</p>
+      {% endfor %}
+    </body>
+</html>
